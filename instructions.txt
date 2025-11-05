@@ -1,0 +1,20 @@
+# Crear entorno virtual
+python -m venv env
+
+# Activar entorno virtual
+# Windows PowerShell
+.\env\Scripts\Activate.ps1
+# o Windows CMD
+.\env\Scripts\activate
+# Linux/Mac
+source env/bin/activate
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+#Crear los directorios pdfs_originales y pdfs_con_marca
+mkdir pdfs_originales
+mkdir pdfs_con_marca
+
+# Ejecutar script
+python watermark_batch.py
