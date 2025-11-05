@@ -96,7 +96,7 @@ En Windows CMD:
 En Linux/Mac:
 
 ```bash
-source env/bin/activate
+source env/Scripts/activate
 ```
 
 3. Instalar las dependencias:
